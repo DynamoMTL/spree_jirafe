@@ -1,3 +1,4 @@
 en:
-  spree:
-    jirafe_settings: Jirafe Settings
+  jirafe_settings: Jirafe Settings
+  site_id: Site ID
+  access_token: Token
