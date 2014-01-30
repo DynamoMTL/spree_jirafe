@@ -4,7 +4,7 @@ module Spree
       def update
         Spree::Jirafe::Config[:site_id] = params[:site_id]
         Spree::Jirafe::Config[:access_token] = params[:access_token]
-        flash[:success] = Spree.t(:successfully_updated, :resource => Spree.t(:jirafe_settings))
+        flash[:success] = I18n.t(:successfully_updated, :resource => I18n.t(:jirafe_settings))
 
         render :edit
       end
